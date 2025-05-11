@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(35deg, #caf5fb, rgb(255, 208, 199));
+    color: #333;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1rem;
+}
+#navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1f1f;
+    padding: 1rem 2rem;
+    height: auto;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.nav-link {
+    color: #fff;
+    padding: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ff9800;
+}
+
+.sticky_nav_icons {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.inner {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/004/928/906/non_2x/time-to-travel-design-time-to-travel-text-in-empty-space-with-traveling-elements-like-luggage-bags-passport-camera-and-compass-in-blue-background-illustration-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 692px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 1000px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+
+h1[id="textH1"] {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    color: #ffffff;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+h3[id="textH3"] {
+    position: absolute;
+    top: 80px;
+    left: 35px;
+    color: #eeeeee;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+}
+
+button[id="buttonExplore"] {
+    position: absolute;
+    bottom: 30px;
+    left: 250px;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+button[id="buttonExplore"]:hover {
+    background-color: #e68a00;
+    transform: scale(1.05);
+}
+
+.big-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #ffffff;
+}
+
+#place {
+    background-color: #fff;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.3);
+    border-radius: 12px;
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#place:hover {
+    transform: translateY(-10px);
+    box-shadow: 4px 8px 16px rgba(0,0,0,0.4);
+}
+
+#desti {
+    width: 100%;
+    height: 200px;
+    border-radius: 12px 12px 0 0;
+    object-fit: cover;
+}
+
+.destination {
+    text-align: center;
+    font-weight: 800;
+    color: #1f1f1f;
+    padding: 1rem 0 0.5rem;
+    font-size: larger;
+}
+
+.desc {
+    padding: 0 1rem 1rem;
+    color: #555;
+}
+
+#booking {
+    padding: 3rem 1rem;
+    background-color: #f5f7fa;
+    text-align: center;
+}
+
+#booking form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+#booking label {
+    display: block;
+    text-align: left;
+    margin: 1rem 0 0.5rem;
+    font-weight: 600;
+}
+
+#booking input, 
+#booking select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    background-color: #f9f9f9;
+}
+
+#booking button {
+    background-color: #0077cc;
+    color: white;
+    padding: 14px;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#booking button:hover {
+    background-color: #005fa3;
+}
+
+
+p[id="foot"] {
+    color: black;
+    font-weight: 800;
+    padding-left:40%;
+    font-size: 1rem;
+}
+div[class="big-box"]{
+    background: linear-gradient(35deg, #caf5fb, rgb(255, 208, 199));
+}
+#booking{
+    background: linear-gradient(35deg, #caf5fb, rgb(255, 208, 199));
+
+
+}
+ #foot-travel {
+        width: 100%;
+        text-align: center;
+        background-color: #1f1f1f;
+        margin-top: 2rem;
+    }
