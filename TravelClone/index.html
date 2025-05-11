@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <title>Explore Travel</title>
+</head>
+<body>
+    <nav class="navbar lg-body-tertiary fixed-top navbar-expand-lg">
+    <div  class="sticky_nav_icons" id="navbar-nav">
+        <a class="nav-link" href="#">
+            <i class="fa-solid fa-house" id="icon"> </i>  Home </a>
+        <a class="nav-link" href="#Destination">
+            <i class="fa-solid fa-plane" id="icon"></i> Destination</a>
+        <a class="nav-link" href="#booking">
+            <i class="fa-solid fa-suitcase-rolling" id="icon"></i>Book A Trip</a>
+        <a class="nav-link" href="#"> 
+            <i class="fa-solid fa-square-phone" id="icon"></i> Contacts</a>
+        </div>
+    </nav>
+    <div class="outer">
+         <div class="inner">
+            <h1 id="textH1">Explore The World With Explore Travel</h1>
+            <h3 id="textH3">Find Your Perfect Vacant Spot Today</h3>
+            <button class="btn btn-outline-green" id="buttonExplore">Explore Destinations</button>
+         </div>
+        <div class="big-box">
+            <div class="destination" id="Destination">Featured Destinations</div>
+            <div class="Paris" id="place">
+                <img src="https://as1.ftcdn.net/v2/jpg/04/98/67/26/1000_F_498672674_IDTxINOO6yBG8q7N2Uc7A4MTJc8CHIiQ.jpg" id="desti">
+                <div class="desc">
+                    <a href="ParisPage.html" id="linkPlace">Paris</a>
+                    <p id="textPlace">A city of lights and love!</p>
+                </div>
+            </div>
+            <div class="Tokyo" id="place">
+             <img src="https://thumbs.dreamstime.com/b/tokyo-skyline-night-shows-modern-city-buildings-tower-stands-out-against-landscape-mount-fuji-background-luxury-urban-348467015.jpg?w=992" id="desti">
+             <div class="desc">
+                <a href="TokyoPage.html" id="linkPlace">Tokyo</a>
+                <p id="textPlace">A heart of modern japan!</p>
+            </div>
+         </div>
+            <div class="New york"  id="place" >
+                <img src="https://media.istockphoto.com/id/492812920/photo/manhattan-bridge-and-manhattan-skyline-at-night-new-york-city.jpg?s=612x612&w=0&k=20&c=K2Go7mX77UP9az-MoVCyYn_t9NLmFirjSPsLTEgWazw=" id="desti">
+                <div class="desc">
+                    <a href="NewYorkPage.html" id="linkPlace">New York</a>
+                    <p id="textPlace">A city that never sleep! </p>
+                </div>
+            </div>
+            <div class="Switzerland"  id="place">
+                <img src="https://travelworldonline.in/wp-content/uploads/2024/07/switzerland-to-avoid-excessive-tourism.jpg" id="desti">
+                <div class="desc">
+                    <a href="SwitzerlandPage.html" id="linkPlace">Switzerland</a>
+                    <p id="textPlace">A land of unwavering neutrality!</p>
+                </div>
+            </div>
+            <div class="Italy"  id="place">
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ2mwgH4urbLaFTVrQ9GCtSa1Dl9oVFEnhf3UriwQQIaUrjZX36" id="desti">
+                <div class="desc">
+                    <a href="ItalyPage.html" id="linkPlace">Italy</a>
+                    <p id="textPlace" class="textP" style="padding-left:0px">You may have the universe if I may have Italy!</p>
+                </div>
+            </div>
+            <div class="Gulmarg"  id="place">
+                <img src="https://olivesevenexpeditions.com/wp-content/uploads/2024/09/gulmarg.png" id="desti">
+                <div class="desc">
+                    <a href="GulmargPage.html" id="linkPlace">Gulmarg</a>
+                    <p id="textPlace" class="textP" style="padding-left:0px">When heaven meets earth, you get Gulmarg.!</p>
+                </div>
+            </div>
+            <div class="Manali"  id="place">
+                <img src="https://i.pinimg.com/736x/fb/f1/59/fbf1590389ba9109801acb5e206600a5.jpg" id="desti">
+                <div class="desc">
+                    <a href="ManaliPage.html" id="linkPlace">Manali</a>
+                    <p id="textPlace" class="textP"  style="padding-left:0px">Manali's beauty is a love letter from nature.!</p>
+                </div>
+            </div>
+            <div class="Mussoorie"  id="place">
+                <img src="https://s3.india.com/wp-content/uploads/2024/05/Feature-Image_-Mussoorie-5.jpg" id="desti">
+                <div class="desc">
+                    <a href="MussooriePage.html" id="linkPlace">Mussoorie</a>
+                    <p id="textPlace">Queen of hills is Mussoorie.!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="booking">
+        <h2 >Book Your Dream Vacation</h2>
+        <form id="booking-form">
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" placeholder="Your Name"required>
+          <label for="destination">Choose a Destination:</label>
+          <select id="destination" name="destination" required>
+            <option selected>Select Something</option>
+            <option value="1">Paris</option>
+            <option value="2">Tokyo</option>
+            <option value="3">New York</option>
+            <option value="4">Switzerland</option>
+            <option value="5">Italy</option>
+            <option value="5">Gulmarg</option>
+            <option value="6">Manali</option>
+            <option value="7">Mussoorie</option>
+          </select>
+          <label for="date">Preferred Travel Date:</label>
+          <input type="date" id="date" name="date" required>
+          <button type="submit">Book Now</button>
+        </form>
+      </section>
+    <footer id="footer_travel">
+         <p id="foot" class="foot-text"> &copy; Explore Travel.All Rights Reserved. </p>
+    </footer>
+    <script src="scriptIndex.js"></script>
+</body>
+</html>
